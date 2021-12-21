@@ -33,10 +33,10 @@
 
 <body>
 
-<h1>R-devel build for Windows (32/64 bit)</h1>
+<h1>R-devel build for Windows (64 bit UCRT)</h1>
 
 <div class="download">
-  <p><a href="@RWVER@-win.exe">Download R-Devel build for Windows</a> <span>(@SIZEMB@ megabytes, 32/64 bit)</span></p>
+  <p><a href="@RWVER@-win.exe">Download R-Devel build for Windows</a> <span>(@SIZEMB@ megabytes, 64 bit UCRT)</span></p>
   <ul>
     <!-- Links to github do not work from frames as used on CRAN  -->
     <!-- <li>This build of R-Devel uses the gcc gcc 8.3.0 toolchain from rtools40.  -->
@@ -47,7 +47,7 @@
 </div>
 
 
-<p>This is a combined Windows 32/64 bit binary build of the @DATE@
+<p>This is a Windows 64-bit UCRT binary build of the @DATE@
 r@SVNREVISION@ development snapshot of R (which will eventually become
 R-@RVER@). </p>
 
