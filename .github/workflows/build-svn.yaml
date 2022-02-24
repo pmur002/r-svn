@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         CC: [ gcc, clang ]
-        OS: [ 'debian:stable', 'debian:testing' ]
+        OS: [ 'debian:stable', 'debian:testing', 'i386/debian:latest', 'arm64v8/debian:latest' ]
     steps:
     - name: System dependencies
       run: |
